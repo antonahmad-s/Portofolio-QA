@@ -15,6 +15,7 @@ The script can be seen in the attached GitHub repository file. I created a separ
 **How to Run**
 
 To run the automation test, I created a MainRunner class to make it easier to run the script; here's the MainRunner setup :
+
 ![image](https://github.com/antonahmad-s/Portofolio-QA/assets/71451871/a3e194f4-92ab-4929-a846-3490fe56213d)
 
 In MainRunner, there is also a Cucumber Configuration to generate reports.
@@ -29,15 +30,17 @@ From the report, it can be seen that:
   - The login scenario as a registered user was successfully run and passed
   - The login scenario for an unregistered user was also successfully run, and an error message was displayed as expected.
 
-After the process is complete, the HTML report can be opened from target/cucumber.html and target/cucumber.json
+After the process is complete, the HTML report can be opened from _**target/cucumber.html**_ and _**target/cucumber.json**_
 
 The following is an example of a Report that has been generated:
 
 **Report Passed**
+
 ![image](https://github.com/antonahmad-s/Portofolio-QA/assets/71451871/a1d3f645-dbc2-4979-ad74-cc94dd4c1cc1)
 
 
 **Report Failed**
+
 ![image](https://github.com/antonahmad-s/Portofolio-QA/assets/71451871/a51c2fca-d556-4a84-bc35-b67ed9abc87e)
 
 **References**
